@@ -46,13 +46,136 @@
 <li><a href="#seeingeyelog">SeeingEyeLog</a></li>
 <li><a href="#requirements-by-version">Requirements By Version</a>
 <ul>
-<li><a href="#vaerion-01">Vaerion 0.1</a></li>
+<li><a href="#version-01">Version 0.1</a></li>
 <li><a href="#version-02">Version 0.2</a></li>
 <li><a href="#version-03">Version 0.3</a></li>
 <li><a href="#version-04">Version 0.4</a></li>
 <li><a href="#version-05">Version 0.5</a></li>
 <li><a href="#version-06">Version 0.6</a></li>
 <li><a href="#version-10">Version 1.0</a></li>
+</ul>
+</li>
+<li><a href="#software-design">Software Design</a>
+<ul>
+<li><a href="#features-and-requirements-traceability">Features and requirements traceability</a>
+<ul>
+<li><a href="#event-interval-tracking-list">Event interval tracking list</a>
+<ul>
+<li><a href="#description">Description</a></li>
+<li><a href="#requirements-satisfied">Requirements satisfied</a></li>
+</ul>
+</li>
+<li><a href="#hamburger-menu">Hamburger Menu</a>
+<ul>
+<li><a href="#description-1">Description</a></li>
+<li><a href="#requirements-satisfied-1">Requirements satisfied</a></li>
+</ul>
+</li>
+<li><a href="#help-menu">Help Menu</a>
+<ul>
+<li><a href="#description-2">Description</a></li>
+<li><a href="#requirements-satisfied-2">Requirements satisfied</a></li>
+</ul>
+</li>
+<li><a href="#press-and-hold-menu">Press-and-Hold menu</a>
+<ul>
+<li><a href="#description-3">Description</a></li>
+<li><a href="#requirements-satisfied-3">Requirements satisfied</a></li>
+</ul>
+</li>
+<li><a href="#undo-state-change">Undo state change</a>
+<ul>
+<li><a href="#description-4">Description</a></li>
+<li><a href="#requirements-satisfied-4">Requirements satisfied</a></li>
+</ul>
+</li>
+<li><a href="#log-entry-recording">Log entry recording</a>
+<ul>
+<li><a href="#description-5">Description</a></li>
+<li><a href="#requirements-satisfied-5">Requirements satisfied</a></li>
+</ul>
+</li>
+<li><a href="#log-entry-recording-configurability">Log entry recording configurability</a>
+<ul>
+<li><a href="#description-6">Description</a></li>
+<li><a href="#requirements-satisfied-6">Requirements satisfied</a></li>
+</ul>
+</li>
+<li><a href="#log-entry-recording-purgability">Log entry recording purgability</a>
+<ul>
+<li><a href="#description-7">Description</a></li>
+<li><a href="#requirements-satisfied-7">Requirements satisfied</a></li>
+</ul>
+</li>
+<li><a href="#table-viewing">Table Viewing</a>
+<ul>
+<li><a href="#description-8">Description</a></li>
+<li><a href="#requirements-satisfied-8">Requirements satisfied</a></li>
+</ul>
+</li>
+<li><a href="#ordinal-selection">Ordinal selection</a>
+<ul>
+<li><a href="#description-9">Description</a></li>
+<li><a href="#requirements-satisfied-9">Requirements satisfied</a></li>
+</ul>
+</li>
+<li><a href="#graph-viewing">Graph Viewing</a>
+<ul>
+<li><a href="#description-10">Description</a></li>
+<li><a href="#requirements-satisfied-10">Requirements satisfied</a></li>
+</ul>
+</li>
+<li><a href="#sync-menu">Sync Menu</a>
+<ul>
+<li><a href="#description-11">Description</a></li>
+<li><a href="#requirements-satisfied-11">Requirements satisfied</a></li>
+</ul>
+</li>
+<li><a href="#google-sheets-integration">Google sheets integration</a>
+<ul>
+<li><a href="#description-12">Description</a></li>
+<li><a href="#requirements-satisfied-12">Requirements satisfied</a></li>
+</ul>
+</li>
+<li><a href="#apple-cloud-integration">Apple cloud integration</a>
+<ul>
+<li><a href="#description-13">Description</a></li>
+<li><a href="#requirements-satisfied-13">Requirements satisfied</a></li>
+</ul>
+</li>
+<li><a href="#office-365-excel-onedrive-integration">Office 365 Excel OneDrive integration</a>
+<ul>
+<li><a href="#description-14">Description</a></li>
+<li><a href="#requirements-satisfied-14">Requirements satisfied</a></li>
+</ul>
+</li>
+<li><a href="#issue-reporting-and-tracking-system">Issue reporting and tracking system</a>
+<ul>
+<li><a href="#description-15">Description</a></li>
+<li><a href="#requirements-satisfied-15">Requirements satisfied</a></li>
+</ul>
+</li>
+<li><a href="#donation-service-integration">Donation service integration</a>
+<ul>
+<li><a href="#description-16">Description</a></li>
+<li><a href="#requirements-satisfied-16">Requirements satisfied</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#implementation-infrastructure">Implementation infrastructure</a></li>
+<li><a href="#backend-design-considerations">Backend design considerations</a>
+<ul>
+<li><a href="#technologies-under-consideration">Technologies under consideration</a></li>
+<li><a href="#final-decisions">Final decisions</a></li>
+</ul>
+</li>
+<li><a href="#uiux-design">UI/UX Design</a>
+<ul>
+<li><a href="#mockups-by-feature">Mockups by feature</a></li>
+<li><a href="#storyboards-by-feature">Storyboards by feature</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li><a href="#help-menu-text-by-version">Help Menu Text by Version</a>
@@ -67,51 +190,173 @@
 </li>
 </ul>
 <h1 id="requirements-by-version">Requirements By Version</h1>
-<h2 id="vaerion-01">Vaerion 0.1</h2>
-<ul>
+<h2 id="version-01">Version 0.1</h2>
+<ol>
 <li>Column of text fields the user may put words in</li>
 <li>Corresponding column of buttons on which are written the last date and time that button was pressed in ISO8601 format</li>
-</ul>
+</ol>
 <h2 id="version-02">Version 0.2</h2>
-<ul>
+<ol>
 <li>Add burger for menus</li>
 <li>Help menu</li>
-</ul>
+</ol>
 <h2 id="version-03">Version 0.3</h2>
-<ul>
+<ol>
 <li>Press-and-hold menu for the date and time buttons</li>
 <li>Undo Functionality (press-and-hold menu)</li>
-</ul>
+</ol>
 <h2 id="version-04">Version 0.4</h2>
-<ul>
+<ol>
 <li>Record log entries locally</li>
-<li>Purge logs on burger menu</li>
 <li>Disable logging on burger menu</li>
+<li>Purge logs on burger menu</li>
 <li>Table viewing (press-and-hold menu)</li>
-</ul>
+</ol>
 <h2 id="version-05">Version 0.5</h2>
-<ul>
+<ol>
 <li>Configure button to allow ordinal selection (press-and-hold menu)</li>
-<li>Create list of values in addition to date and time (press-and-hold menu)
-<ul>
+<li>Create list of values in addition to date and time (press-and-hold menu)</li>
 <li>This value is displayed along with the date and time</li>
-</ul>
-</li>
 <li>Choose ordinal or between values that were added to that list (press-and-hold menu)</li>
 <li>Graph viewing (press-and-hold menu)</li>
-</ul>
+</ol>
 <h2 id="version-06">Version 0.6</h2>
-<ul>
+<ol>
 <li>Synch menu</li>
 <li>Synch with a Google Sheet in the user’s Google Drive</li>
 <li>Synch with whatever’s appropriate on the user’s Apple Cloud thing</li>
 <li>Synch with an Office Online Excel Document on the user’s OneDrive, happenstance help you</li>
-</ul>
+</ol>
 <h2 id="version-10">Version 1.0</h2>
-<ul>
+<ol>
 <li>Contact information for bug reporting</li>
 <li>Donation button</li>
+</ol>
+<h1 id="software-design">Software Design</h1>
+<h2 id="features-and-requirements-traceability">Features and requirements traceability</h2>
+<h3 id="event-interval-tracking-list">Event interval tracking list</h3>
+<h4 id="description">Description</h4>
+<h4 id="requirements-satisfied">Requirements satisfied</h4>
+<ul>
+<li><a href="#version-01">0.1.1</a></li>
+<li><a href="#version-01">0.1.2</a></li>
 </ul>
+<h3 id="hamburger-menu">Hamburger Menu</h3>
+<h4 id="description-1">Description</h4>
+<h4 id="requirements-satisfied-1">Requirements satisfied</h4>
+<ul>
+<li><a href="#version-02">0.2.1</a></li>
+</ul>
+<h3 id="help-menu">Help Menu</h3>
+<h4 id="description-2">Description</h4>
+<h4 id="requirements-satisfied-2">Requirements satisfied</h4>
+<ul>
+<li><a href="#version-02">0.2.2</a></li>
+</ul>
+<h3 id="press-and-hold-menu">Press-and-Hold menu</h3>
+<h4 id="description-3">Description</h4>
+<h4 id="requirements-satisfied-3">Requirements satisfied</h4>
+<ul>
+<li><a href="#version-03">0.3.1</a></li>
+</ul>
+<h3 id="undo-state-change">Undo state change</h3>
+<h4 id="description-4">Description</h4>
+<h4 id="requirements-satisfied-4">Requirements satisfied</h4>
+<ul>
+<li><a href="#version-03">0.3.2</a></li>
+</ul>
+<h3 id="log-entry-recording">Log entry recording</h3>
+<h4 id="description-5">Description</h4>
+<h4 id="requirements-satisfied-5">Requirements satisfied</h4>
+<ul>
+<li><a href="#version-04">0.4.1</a></li>
+</ul>
+<h3 id="log-entry-recording-configurability">Log entry recording configurability</h3>
+<h4 id="description-6">Description</h4>
+<h4 id="requirements-satisfied-6">Requirements satisfied</h4>
+<ul>
+<li><a href="#version-04">0.4.2</a></li>
+</ul>
+<h3 id="log-entry-recording-purgability">Log entry recording purgability</h3>
+<h4 id="description-7">Description</h4>
+<h4 id="requirements-satisfied-7">Requirements satisfied</h4>
+<ul>
+<li><a href="#version-04">0.4.3</a></li>
+</ul>
+<h3 id="table-viewing">Table Viewing</h3>
+<h4 id="description-8">Description</h4>
+<h4 id="requirements-satisfied-8">Requirements satisfied</h4>
+<ul>
+<li><a href="#version-04">0.4.4</a></li>
+</ul>
+<h3 id="ordinal-selection">Ordinal selection</h3>
+<h4 id="description-9">Description</h4>
+<h4 id="requirements-satisfied-9">Requirements satisfied</h4>
+<ul>
+<li><a href="#version-05">0.5.1</a></li>
+<li><a href="#version-05">0.5.2</a></li>
+<li><a href="#version-05">0.5.3</a></li>
+</ul>
+<h3 id="graph-viewing">Graph Viewing</h3>
+<h4 id="description-10">Description</h4>
+<h4 id="requirements-satisfied-10">Requirements satisfied</h4>
+<ul>
+<li><a href="#version-05">0.5.4</a></li>
+</ul>
+<h3 id="sync-menu">Sync Menu</h3>
+<h4 id="description-11">Description</h4>
+<h4 id="requirements-satisfied-11">Requirements satisfied</h4>
+<ul>
+<li><a href="#version-06">0.6.1</a></li>
+</ul>
+<h3 id="google-sheets-integration">Google sheets integration</h3>
+<h4 id="description-12">Description</h4>
+<h4 id="requirements-satisfied-12">Requirements satisfied</h4>
+<ul>
+<li><a href="#version-06">0.6.2</a></li>
+</ul>
+<h3 id="apple-cloud-integration">Apple cloud integration</h3>
+<h4 id="description-13">Description</h4>
+<h4 id="requirements-satisfied-13">Requirements satisfied</h4>
+<ul>
+<li><a href="#version-06">0.6.3</a></li>
+</ul>
+<h3 id="office-365-excel-onedrive-integration">Office 365 Excel OneDrive integration</h3>
+<h4 id="description-14">Description</h4>
+<h4 id="requirements-satisfied-14">Requirements satisfied</h4>
+<ul>
+<li><a href="#version-06">0.6.4</a></li>
+</ul>
+<h3 id="issue-reporting-and-tracking-system">Issue reporting and tracking system</h3>
+<h4 id="description-15">Description</h4>
+<h4 id="requirements-satisfied-15">Requirements satisfied</h4>
+<ul>
+<li><a href="#version-10">1.0.1</a></li>
+</ul>
+<h3 id="donation-service-integration">Donation service integration</h3>
+<h4 id="description-16">Description</h4>
+<h4 id="requirements-satisfied-16">Requirements satisfied</h4>
+<ul>
+<li><a href="#version-10">1.0.2</a></li>
+</ul>
+<h2 id="implementation-infrastructure">Implementation infrastructure</h2>
+<ul>
+<li>Python 3.8 or newer (Because programming)</li>
+<li>Kivy (Because it's easy)</li>
+<li>KivyMD (Because it's pretty)</li>
+</ul>
+<h2 id="backend-design-considerations">Backend design considerations</h2>
+<h3 id="technologies-under-consideration">Technologies under consideration</h3>
+<ul>
+<li>SQL Lite</li>
+<li>Pure JSON</li>
+<li>Encryption</li>
+<li>Push notifications</li>
+</ul>
+<h3 id="final-decisions">Final decisions</h3>
+<h2 id="uiux-design">UI/UX Design</h2>
+<h3 id="mockups-by-feature">Mockups by feature</h3>
+<h3 id="storyboards-by-feature">Storyboards by feature</h3>
 <h1 id="help-menu-text-by-version">Help Menu Text by Version</h1>
 <h2 id="version-02-1">Version 0.2</h2>
 <ul>
