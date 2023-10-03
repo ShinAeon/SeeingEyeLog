@@ -152,7 +152,7 @@ This product is intended as a disability aid for people with time blindness. Peo
 #### Requirements satisfied
 - [0.4.2](#version-04)
 
-### Log entry recording purgability
+### Log entry recording purge-ability
 #### Description
 #### Requirements satisfied
 - [0.4.3](#version-04)
@@ -179,7 +179,7 @@ This product is intended as a disability aid for people with time blindness. Peo
 #### Requirements satisfied
 - [0.6.1](#version-06)
 
-### Google sheets integration
+### Google Sheets integration
 #### Description
 #### Requirements satisfied
 - [0.6.2](#version-06)
@@ -204,10 +204,15 @@ This product is intended as a disability aid for people with time blindness. Peo
 #### Requirements satisfied
 - [1.0.2](#version-10)
 
-## Implementation infrastructure
-- Python 3.8 or newer (Because programming)
-- Kivy (Because it's easy)
-- KivyMD (Because it's pretty)
+## Implementation Infrastructure
+### Technologies under consideration
+- Python 3.10
+- Kivy if python
+- KivyMD if Kivy
+- Dart
+- Flutter if Dart
+
+### Final decisions
 
 ## Backend design considerations
 ### Technologies under consideration
